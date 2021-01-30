@@ -8,9 +8,12 @@ EditorUserSettings:
     RecentlyUsedScenePath-0:
       value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
       flags: 0
+<<<<<<< HEAD
     RecentlyUsedScenePath-1:
       value: 22424703114646480c18096c052d56040f
       flags: 0
+=======
+>>>>>>> parent of 374d371... Set Save System
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
