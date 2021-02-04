@@ -23,7 +23,6 @@ public class Despawn_Birds : MonoBehaviour
 
         Destroy(collision.gameObject);
 
-        GameManager.Instance.IncScore(1);
     }
 
 }
