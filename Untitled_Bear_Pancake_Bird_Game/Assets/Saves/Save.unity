@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 1178088278}
   - component: {fileID: 1178088277}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Score_Catcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -639,7 +639,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1178088276}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37499f925b855254684a88d64fc7682c, type: 3}
+  m_Script: {fileID: 11500000, guid: 76a3e3bd36efee548a2bfc4ad8339b0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1178088278

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Despawn_Birds : MonoBehaviour
+public class Inc_Score : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -16,14 +16,13 @@ public class Despawn_Birds : MonoBehaviour
         
     }
 
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
-        Debug.Log("Collision");
-
         Destroy(collision.gameObject);
 
         GameManager.Instance.IncScore(1);
     }
+
 
 }
