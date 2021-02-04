@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DestroyBird : MonoBehaviour
 {
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +22,7 @@ public class DestroyBird : MonoBehaviour
     {
         if (collision.gameObject.tag == "BirdLeft")
         {
-            
+            Object.Destroy(collision.gameObject);
         }
     }
 }
